@@ -1,0 +1,24 @@
+{
+ "n_train": 3712,
+ "n_train_sub": 3153,
+ "n_tune": 559,
+ "n_val": 3769,
+ "n_train_drives": 96,
+ "tune_drives": [
+  "2011_09_26_drive_0001_sync",
+  "2011_09_26_drive_0057_sync",
+  "2011_09_26_drive_0061_sync",
+  "2011_09_26_drive_0106_sync",
+  "2011_09_28_drive_0043_sync",
+  "2011_09_28_drive_0047_sync",
+  "2011_09_28_drive_0077_sync",
+  "2011_09_28_drive_0087_sync",
+  "2011_09_28_drive_0094_sync",
+  "2011_09_28_drive_0166_sync",
+  "2011_09_28_drive_0179_sync",
+  "2011_09_28_drive_0214_sync",
+  "2011_09_28_drive_0216_sync"
+ ],
+ "overlap_tune_val_drives": [],
+ "overlap_trainsub_val_drives": []
+}

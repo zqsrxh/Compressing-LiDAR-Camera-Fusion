@@ -1,0 +1,13 @@
+This repository contains code adapted from third-party projects:
+
+1. OpenPCDet (https://github.com/open-mmlab/OpenPCDet), commit 233f849829b6ac19afb8af8837a0246890908755,
+   Apache License 2.0. Files in fusion3d/pcdet_lite/ (box utilities, anchor generator, axis-aligned target
+   assigner, box coder, losses, anchor head, BEV backbone, NMS wrapper, augmentation utilities, KITTI calibration
+   and label readers). Modifications: removed dependencies on compiled CUDA extensions; anchors are moved to the
+   model device at run time.
+2. KITTI object evaluation in Python, distributed with OpenPCDet and originally from second.pytorch by Yan Yan
+   (MIT License, see fusion3d/pcdet_lite/kitti_eval/LICENSE_second_kitti_eval_MIT). Modification: the CUDA
+   rotated-overlap routine was replaced by an exact convex-polygon clipping implementation on the CPU
+   (rotate_iou_cpu.py).
+3. The PointFusion layer follows the MMDetection3D implementation (https://github.com/open-mmlab/mmdetection3d,
+   commit fe25f7a51d36e3702f961e198894580d83c4387b, Apache License 2.0); it was re-implemented without MMCV.
