@@ -2,7 +2,7 @@
 
 Code, split files, raw results and analysis scripts for the article
 "Where to compress a LiDAR-camera fusion detector: unit-wise sensitivity, latency-budgeted pruning
-and INT8 deployment on two GPU platforms" (submitted to PeerJ Computer Science).
+and INT8 deployment on two GPU platforms" .
 
 No KITTI data are redistributed. All derived files are regenerated from the official KITTI download
 (KITTI is licensed CC BY-NC-SA 3.0; register and accept the terms at https://www.cvlibs.net/datasets/kitti/).
