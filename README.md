@@ -42,10 +42,6 @@ No KITTI data are redistributed. All derived files are regenerated from the offi
 6. Tables: `python scripts/orchestration/make_tables.py RUNS LIDAR_RUNS OUT` and `make_tables2.py`.
 Every result JSON also records its full command-line arguments in its `args` field.
 
-## Trained weights
-Model weights (base models and fine-tuned compressed models, three seeds each) are archived separately on Zenodo
-for non-commercial research use, in line with the licence of the training data.
-
 ## Software
 Training of fusion models and fine-tuning: PyTorch 2.4.1 (CUDA 12.4) on A100-SXM4-80GB.
 LiDAR-only training, INT8 analysis and GB10 latency: PyTorch 2.14.1 (CUDA 13.0), TensorRT 11.4.0.106, NVIDIA Model Optimizer 0.48.0.
